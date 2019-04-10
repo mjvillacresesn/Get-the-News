@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+  <!--USED LINKS BELOW TO ADAPT FILE AS A NEWSPAPER REF LINK IN "CSS2.CSS"-->
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/css2.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+  <title>Villa News!</title>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+<div class="head">
+    <div class="headerobjectswrapper">
+        <div class="weatherforcastbox"><span style="font-style: italic;">Weatherforcast for the next 24 hours: Sunshine with a chance of Rain</span><br><span>Wind: 7km/h SSE; Temp: 58°F;</span></div>
+        <header>Central Jersey Post</header>
+    </div>
+    <div class="subhead">North Plainfield, NJ <div id="todaysdate"></div> One Page</div>
+</div>
+
+<div class="container">
+  </br>
+  </br>
+  <div class="head"><span class="headline hl5">D3 Graphs</span><p>
+      <span class="headline hl6">Current Trends</span></p>
+      <figcaption class="figcaption">U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.</figcaption>
+  </div>
+  </br>
+  </br> 
+  <div class="row">
+    <div class="col-xs-12  col-md-9">
+      <div id="scatter">
+        <!-- Interactive chart here. -->
+      </div>
+      <!-- <figcaption class="figcaption">U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.</figcaption> -->
+    </div>
+  </div>
+<!-- </br>
+</br>     -->
+  <div class="row">
+    <div class="col-xs-12  col-md-9">
+
+      <div class="article">
+        <h2>Correlations Discovered Between Health Risks and Income</h2>
+        </br>
+        <p><i>Note:
+        </br>Postive correlation implies as the x-values move further away from the 0-intercept, the y-values also move up in the y-axis.
+        </br>Negative correlation notes the inverted result, as one value increases(/decreases) the other value decreases(/increases).
+        </br>No correlation signifies, there was no trend found.
+        </i></p>
+        <p><b>Poverty</b>
+        </br>
+        Our research has found a positive correlation amongst Poverty percentages and Healthcare decline.
+        What's more, as the population's poverty levels increase, the lack of Healthcare percentages increase as well. 
+        Data collected from all 50 states across the nation.  
+      </p>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+</br> 
+        
+
+<!-- Footer-->
+<div id="footer">
+<p>MJ Villacreses&copy;2019</p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+
+
+</body>
+</html>
