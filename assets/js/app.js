@@ -99,8 +99,8 @@ d3.csv("./assets/data/data.csv")
       .attr("fill", "blue")
       .attr("opacity", ".5");
 
+    // create matching labels for each abbreviated state.  
     var theCircles = chartGroup.selectAll("g Circles").data(data).enter();  
-    // create matching labels for each abbreviated state.
     theCircles
       .append("text")
       .text(function(d) {
@@ -113,7 +113,7 @@ d3.csv("./assets/data/data.csv")
         // adding a third of the radius to the height pushes text towrds middle.
       .attr("font-size", "10")
       .attr("fill", "white")
-      .attr("class", "stateText");      ;
+      .attr("class", "stateText");      
           
 
     // Step 6: Initialize tool tip
